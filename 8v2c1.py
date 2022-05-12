@@ -354,7 +354,7 @@ def main():
 
 
 if __name__ == "__main__":
-	#report plots generationds
+    #Generate plots for report
     n_moves, cost_ucs, nexp_ucs, cost_manhattan, nexp_manhattan, cost_misplaced, nexp_misplaced, ucs_t, manhattan_t, misplaced_t = moves_steps(
         2, 26, eight_goal_state)
     plot_different_heuristic_function(cost_ucs, nexp_ucs, cost_manhattan, nexp_manhattan, cost_misplaced,
